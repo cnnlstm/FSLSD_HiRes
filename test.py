@@ -27,7 +27,6 @@ from models.stylegan2.model import *
 from models.nets import *
 
 
-
 from distributed import (
     get_rank,
     synchronize,
