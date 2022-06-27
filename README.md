@@ -24,12 +24,11 @@ $\color{#FF0000}{Note:}$
 
 ## Citation
 ```
-@article{Nitzan2020FaceID,
-  title={Face identity disentanglement via latent space mapping},
-  author={Yotam Nitzan and A. Bermano and Yangyan Li and D. Cohen-Or},
-  journal={ACM Transactions on Graphics (TOG)},
-  year={2020},
-  volume={39},
-  pages={1 - 14}
-}
+@inproceedings{xu2022high,
+  title={High-resolution face swapping via latent semantics disentanglement},
+  author={Xu, Yangyang and Deng, Bailin and Wang, Junle and Jing, Yanqing and Pan, Jia and He, Shengfeng},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={7642--7651},
+  year={2022}
+
 ```
