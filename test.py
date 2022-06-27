@@ -23,19 +23,8 @@ from utils import *
 
 
 from models.encoders.psp_encoders import *
-from models.encoders.psp_encoders import *
 from models.stylegan2.model import *
 from models.nets import *
-
-
-from criteria.id_loss import IDLoss
-from criteria.lpips.lpips import LPIPS
-from criteria.hm_loss import HistogramLoss
-from criteria.tv_loss import TVLoss
-
-
-from torchalign import FacialLandmarkDetector
-
 
 
 from distributed import (
