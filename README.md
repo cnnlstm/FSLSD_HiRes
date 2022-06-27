@@ -9,8 +9,11 @@ We present the inference code on CelebA-HQ dataset, Anaconda is required.
 `conda env create -f stylegan.yaml`
 
 **Download the dataset and checkpoint**
-1. We have inverted the CelebA-HQ dataset using pSp encoder. The whole dataset can be download from this [link](https://drive.google.com/file/d/1TRLvURZpx5xtEnxBXeaaZs1RbReWftBv/view?usp=sharing). *After dowoload the dataset, unzip it and move it to the upper folder*.
-2. The checkpoint can be downloaded from this [link](https://drive.google.com/file/d/1LH4RlxaPnrHAiWEDm3LDp5Sz9H02bzXU/view?usp=sharing). *Download it and put it at the current folder*.
+1. We have inverted the CelebA-HQ dataset using [pSp](https://github.com/eladrich/pixel2style2pixel) encoder. The whole dataset can be download from this [link](https://drive.google.com/file/d/1TRLvURZpx5xtEnxBXeaaZs1RbReWftBv/view?usp=sharing). After dowoload the dataset, unzip it and move it to the upper folder.
+2. The checkpoint can be downloaded from this [link](https://drive.google.com/file/d/1LH4RlxaPnrHAiWEDm3LDp5Sz9H02bzXU/view?usp=sharing). Download it and put it at the current folder.
+
+$\color{#FF0000}{Note:}$ For testing your own image, you need to invert the image to the latent space using [pSp](https://github.com/eladrich/pixel2style2pixel), and get the face parsing using [BiSeNet](https://github.com/zllrunning/face-parsing.PyTorch). Make sure that the dataset folder shares the same structure as our CelebA-HQ dataset, or you can modify the `dataset.py` as you wish.
+
 
 **Run the inference code**
 `bash run.sh`
