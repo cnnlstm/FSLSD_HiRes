@@ -19,9 +19,5 @@ We present the inference code on CelebA-HQ dataset, Anaconda is required.
 
 ## Citation
 >@inproceedings{xu2022high,
-  title={High-resolution face swapping via latent semantics disentanglement},
-  author={Xu, Yangyang and Deng, Bailin and Wang, Junle and Jing, Yanqing and Pan, Jia and He, Shengfeng},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={7642--7651},
-  year={2022}
+  title={High-resolution face swapping via latent semantics disentanglement},<br />author={Xu, Yangyang and Deng, Bailin and Wang, Junle and Jing, Yanqing and Pan, Jia and He, Shengfeng},<br />booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},<br />pages={7642--7651},<br />year={2022}
 }
